@@ -62,7 +62,7 @@ p{
 }
 
 h2 a{
-    font-size: 60px;
+    font-size: 100px;
     font-family: 'Open Sans',  sans-serif;
     font-family: 'Passion One', sans-serif;
     text-decoration: none;
@@ -71,3 +71,29 @@ h2 a{
 h2{
     text-align: center;
 }
+
+.row{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.column{
+    width: calc(33.33% - 20px);
+    padding: 5px;
+    text-align: center;
+}
+
+.column img{
+    width: 100%;
+    height: auto;
+    margin-bottom: 100px;
+    display: block;
+}
+
+.column p{
+    font-size: 16px;
+    margin-top: 5px;
+    text-align: center;
+}
+ 
