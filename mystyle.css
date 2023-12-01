@@ -96,4 +96,34 @@ h2{
     margin-top: 5px;
     text-align: center;
 }
+
+@media screen and (max-width:786px) {
+    .column{
+        width: 48%;
+    }
+}
  
+.tour{
+    font-size: 40px;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Oswald', sans-serif;
+    font-family: 'Passion One', sans-serif;
+
+}
+
+h3.tour{
+    text-align: center;
+}
+
+pre{
+    font-size: 30px;
+    text-align: center;
+    margin-right: 100px;
+    color:aliceblue
+}
+
+nav{
+    text-decoration: none;
+}
+
+
