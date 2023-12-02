@@ -3,10 +3,11 @@
     <title>VACATIONS</title>
     <link rel ='normalize' href="normalize.css">
     <link rel ='stylesheet' href="mystyle.css">
-    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&family=Oswald:wght@500&family=Passion+One&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Passion+One&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/5e7ece6bc6.js" crossorigin="anonymous"></script>
 
 </head>
-<body>
+<body class="index">
     <header>
         <h1><a href="index.html">VACATIONS</a></h1>
         <nav>
@@ -17,18 +18,51 @@
         </nav>
     </header>
 
-    <h3 class="tour">FEB 3, 2024</h3>
-    <pre>
-        Laneway Festival   Brisbane, Australia
-    </pre>
-    <h3 class="tour">FEB 4, 2024</h3>
-    <pre>
-        Laneway Festival   Sydney, Australia
-    </pre>
-    <h3>FEB 10, 2024</h3>
-    <pre>
-        Laneway Festival   Melbourne, Australia
-    </pre>
+    <div class="container">
+        <div class="singleCol icons">
+            <a href="https://www.instagram.com/vacationsband_/">
+                <i class="fa-brands fa-instagram"></i>
+            </a>
+            <a href="https://open.spotify.com/artist/0U7iI0Dk4Ojvi17nZboNO4">
+                <i class="fa-brands fa-spotify"></i>
+            </a>
+            <a href="https://twitter.com/vacationsband_">
+                <i class="fa-brands fa-twitter"></i>
+            </a>
+            <a href="https://www.youtube.com/@VACATIONSband">
+                <i class="fa-brands fa-youtube"></i>
+            </a>
+            <a href="https://www.tiktok.com/@vacationsband">
+                <i class="fa-brands fa-tiktok"></i>
+            </a>
+        </div>
+    </div>
+    
+    <div class="tour-section">
+        <div class="tour-date">
+            <div class="tour-info">
+                <h3 class="tour">FEB 3, 2024</h3>
+                <p>Brisbane, Australia<br>Laneway Festival</p>
+            </div>
+            <button type="button" onclick="alert('SOLD OUT')">Tickets</button>
+        </div>    
+        <hr width="100%" size="2">
+        <div class="tour-date">
+            <div class="tour-info">   
+                <h3 class="tour">FEB 4, 2024</h3>
+                <p>Sydney, Australia<br>Laneway Festival</p>
+            </div> 
+            <button type="button" onclick="alert('SOLD OUT')">Tickets</button>
+        </div>    
+        <hr width="100%" size="2">
+        <div class="tour-date">
+            <div class="tour-info">
+                <h3 class="tour">FEB 10, 2024</h3>
+                <p>Melbourne, Australia<br>Laneway Festival</p>
+            </div>
+            <button type="button" onclick="alert('SOLD OUT')">Tickets</button>    
+        </div>
+    </div>    
 
 </body>
 </html>

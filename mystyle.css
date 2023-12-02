@@ -24,14 +24,47 @@ nav span{
     margin-right: 20px;
 }
 
-div{
+.icons{
+    display: flex;
+    justify-content:space-evenly;
+    position: absolute;
+    top: 0;
+    right: 30;
+    width: 100%;
+    padding: 20px;
+}
+
+.icons a{
+    color: white;
+    font-size: 20px;
+    text-decoration: none;
+}
+
+.singleCol{
+    max-width: 200px;
+    margin: 0 auto;
+}
+
+.vid1{
     display: flex;
     align-items: center;
     justify-content: center;
     padding: 30px;
+    position:relative;
+    top: 70px;
 }
 
-body{
+.vid2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 30px;
+    position:relative;
+    top:30px
+
+}
+
+body.index{
     background-image: 
     url(https://i.pinimg.com/564x/41/43/fb/4143fbc6b723642e2b39bae65140e26e.jpg);
      background-repeat: no-repeat;
@@ -56,14 +89,14 @@ img{
     margin-right: 20px; 
 }
 
-p{
+.content p{
     font-size: 25px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: white;
 }
 
 h2 a{
-    font-size: 100px;
-    font-family: 'Open Sans',  sans-serif;
+    font-size: 120px;
     font-family: 'Passion One', sans-serif;
     text-decoration: none;
 }
@@ -87,14 +120,15 @@ h2{
 .column img{
     width: 100%;
     height: auto;
-    margin-bottom: 100px;
-    display: block;
+    padding: 10px;
 }
 
 .column p{
-    font-size: 16px;
-    margin-top: 5px;
+    font-size: 20px;
     text-align: center;
+    position: relative;
+    top: -30px;
+    font-family: 'Roboto Condensed', sans-serif;
 }
 
 @media screen and (max-width:786px) {
@@ -102,28 +136,37 @@ h2{
         width: 48%;
     }
 }
+
+.tour-date{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 20px;
+    padding-left: 50px;
+    font-family: 'Passion One', sans-serif;
+}
  
 .tour{
+    text-align: left;
+    margin: 0;
     font-size: 40px;
-    font-family: 'Open Sans', sans-serif;
-    font-family: 'Oswald', sans-serif;
-    font-family: 'Passion One', sans-serif;
-
 }
 
-h3.tour{
-    text-align: center;
-}
-
-pre{
+.tour-date p{
     font-size: 30px;
-    text-align: center;
-    margin-right: 100px;
-    color:aliceblue
+    margin: 0;
 }
 
-nav{
-    text-decoration: none;
+.tour section{
+    width: 100%;
+    max-width: 600px;
+    margin: 0 auto;
 }
 
+
+
+
+body.merch{
+    background-color:blanchedalmond;
+}
 
