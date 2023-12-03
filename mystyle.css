@@ -1,3 +1,4 @@
+/* header */
 header{
     display: flex;
     align-items: center;
@@ -23,7 +24,7 @@ span{
 nav span{
     margin-right: 20px;
 }
-
+/* social media */
 .icons{
     display: flex;
     justify-content:space-evenly;
@@ -44,14 +45,14 @@ nav span{
     max-width: 200px;
     margin: 0 auto;
 }
-
+/* index vids */
 .vid1{
     display: flex;
     align-items: center;
     justify-content: center;
     padding: 30px;
     position:relative;
-    top: 70px;
+    top: 30px;
 }
 
 .vid2{
@@ -63,7 +64,7 @@ nav span{
     top:30px
 
 }
-
+/* index bg */
 body.index{
     background-image: 
     url(https://i.pinimg.com/564x/41/43/fb/4143fbc6b723642e2b39bae65140e26e.jpg);
@@ -71,30 +72,33 @@ body.index{
      background-attachment: fixed;
      background-size: cover;
 }
-
-img{
-    width: 50%;
-    height:auto;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
+/* about page */
 .content {
     display: flex;
     align-items: top;
-}
-
-.content img {
-    margin-right: 20px; 
 }
 
 .content p{
     font-size: 25px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     color: white;
+    padding: 40px;
 }
 
+.flex-container{
+    display: flex;
+    flex-wrap:wrap;
+    justify-content: space-between;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+.flex-container img{
+    margin-bottom: 10px;
+    width: calc(33.33%-20px);
+
+}
+/* merch page */
 h2 a{
     font-size: 120px;
     font-family: 'Passion One', sans-serif;
@@ -103,6 +107,10 @@ h2 a{
 
 h2{
     text-align: center;
+}
+
+body.merch{
+    background-color:blanchedalmond;
 }
 
 .row{
@@ -137,13 +145,66 @@ h2{
     }
 }
 
+.container-merch{
+    position: relative;
+    width: 100%;
+    max-width: 500px;
+}
+
+.container-merch::before{
+    content:"";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0);
+    transition: 0.3s;
+}
+
+.container-merch:hover::before{
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.container-merch button{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    opacity: 0;
+    transition: 0.3s;
+    font-size: 20px;
+}
+
+.container-merch:hover button{
+    opacity: 1;
+}
+
+/* tour page */
+body.tour{
+    background-color: blanchedalmond;
+}
+
+.container-tour a{
+    color: tomato;
+}
+
+.tour section{
+    width: 100%;
+    max-width: 600px;
+    margin: 0 auto;
+}
+
 .tour-date{
     display: flex;
-    flex-direction: column;
-    align-items: flex-start;
+    justify-content: space-between;
+    align-items: center;
     padding: 20px;
     padding-left: 50px;
     font-family: 'Passion One', sans-serif;
+    position: relative;
+}
+
+.tour-info{
+    color: tomato;
 }
  
 .tour{
@@ -157,16 +218,27 @@ h2{
     margin: 0;
 }
 
-.tour section{
-    width: 100%;
-    max-width: 600px;
+.line{
+    border-bottom: 3px solid white;
+    margin-top: 3px;
+    width: 95%;
     margin: 0 auto;
 }
 
+.tour-section button{
+    background-color: tomato;
+    font-size: 30px;
+    color: white;
+    border: 2px solid white;
+    transition-duration: 0.4s;
+    position: absolute;
+    top: 50%;
+    right: 65px;
+    transform: translateY(-50%);
+}
 
-
-
-body.merch{
-    background-color:blanchedalmond;
+.tour-section button:hover{
+    background-color: white;
+    color: tomato;
 }
 
