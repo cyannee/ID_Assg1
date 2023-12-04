@@ -73,6 +73,14 @@ body.index{
      background-size: cover;
 }
 /* about page */
+body.about{
+    background-image: url('https://i.pinimg.com/564x/f1/4b/0d/f14b0d409857a3cc2460b1cbcf3ed33b.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+
+}
+
 .content {
     display: flex;
     align-items: top;
@@ -80,7 +88,7 @@ body.index{
 
 .content p{
     font-size: 25px;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: 'Hind', sans-serif;
     color: white;
     padding: 40px;
 }
@@ -98,6 +106,39 @@ body.index{
     width: calc(33.33%-20px);
 
 }
+
+.albums{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    gap: 20px;
+}
+
+.album-name{
+    text-align: center;
+}
+
+.albums img{
+    width: 300px;
+    height: auto;
+}
+
+.album-name p{
+    margin: 0;
+    color: black;
+    font-size: 25px;
+    font-family: 'Hind', sans-serif;
+    padding-bottom: 50px;
+}
+
+h4{
+    font-size: 40px;
+    text-align: center;
+    font-family: 'Hind', sans-serif;;
+}
+
 /* merch page */
 h2 a{
     font-size: 120px;
@@ -213,6 +254,10 @@ body.tour{
     font-size: 40px;
 }
 
+.highlighted{
+    background-color: crimson;
+}
+
 .tour-date p{
     font-size: 30px;
     margin: 0;
@@ -242,3 +287,31 @@ body.tour{
     color: tomato;
 }
 
+
+.contact h2{
+    font-size: 30px;
+    font-family: 'Hedvig Letters Serif', serif;
+
+}
+
+.contact h3{
+    font-size: 25px;
+    font-family: 'Hedvig Letters Serif', serif;
+}
+
+.contact p{
+    font-size: 20px;
+    font-family: 'Hedvig Letters Serif', serif;
+}
+
+.contact-info{
+    padding-left: 100px;
+}
+
+.booking-info{
+    padding-left: 100px;
+}
+
+.container-contact a{
+    color: tomato;
+}
