@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<head>
+    <title>VACATIONS</title>
+    <link rel ='normalize' href="normalize.css">
+    <link rel ='stylesheet' href="mystyle.css">
+    <script src="filter.js"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Passion+One&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@500&display=swap" rel="stylesheet">
+    
+</head>
+
+<body class="merch">
+    <h2><a href="index.html" style="color:tomato;">VACATIONS</a></h2>
+    <section>
+        <nav>
+            <ul>
+                <li><a href="#" onclick="filterItems('Apparel')">Apparel</a></li>
+                <li><a href="#" onclick="filterItems('Accessories')">Accessories</a></li>
+                <li><a href="#" onclick="filterItems('Others')">Others</a></li>
+                <li><a href="#" onclick="showAll()">Show All</a></li>
+            </ul>
+        </nav>
+    </section>
+    <div class="row">
+        <div class="column">
+            <div class="container-merch" data-category="Apparel">
+                <img src="images/merch1.png" alt="Black T-Shirt">
+                <button type="button" class="merch-btn">Add to Cart</button>
+                <p>Fall Tour T-Shirt (Black)<br>$24.99</p>
+            </div>
+        </div>
+        <div class="column">
+            <div class="container-merch" data-category="Apparel">
+                <img src="images/merch2.png" alt="Whit T-Shirt">
+                <button type="button" class="merch-btn">Add to Cart</button>
+                <p>Fall Tour T-Shirt (White)<br>$24.99</p>
+            </div>
+        </div>
+        <div class="column">
+            <div class="container-merch" data-category="Others">
+                <img src="images/merch3.png" alt="Poster">
+                <button type="button" class="merch-btn">Add to Cart</button>
+                <p>Fall Tour Poster<br>$9.99</p>
+            </div>
+        </div>
+        <div class="column">
+            <div class="container-merch" data-category="Accessories">
+                <img src="images/merch4.png" alt="Hat">
+                <button type="button" class="merch-btn">Add to Cart</button>
+                <p>Fall Tour Cap (Black)<br>$14.99</p>
+            </div>
+        </div>
+        <div class="column">
+            <div class="container-merch" data-category="Apparel">
+                <img src="images/merch5.png" alt="Stars Logo White T-Shirt">
+                <button type="button" class="merch-btn">Add to Cart</button>
+                <p>Stars Logo T-Shirt (White)<br>$24.99</p>
+            </div>
+        </div>
+        <div class="column">
+            <div class="container-merch" data-category="Apparel">
+                <img src="images/merch6.png" alt="Long Sleeve">
+                <button type="button" class="merch-btn">Add to Cart</button>
+                <p>Stars Logo Long Sleeve (Red)<br>$34.99</p>
+            </div>
+        </div>
+    </div>
+
+</body>
+</html>

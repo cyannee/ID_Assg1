@@ -1,24 +1,48 @@
 /* header */
+body{
+    margin: 0;
+    padding: 0;
+}
+
 header{
     display: flex;
     align-items: center;
     justify-content: space-between;
     border-bottom: 1px solid #000;
-    padding: 20px;
+    background-color: wheat;
+    color: tomato;
+    margin: 0;
+    width: 100%;
+}
+
+header nav{
+    margin: 0;
 }
 
 header a{
     text-decoration: none;
+    color: tomato;
+    margin: 0 10px;
+}
+
+header a:hover{
+    text-decoration: underline;
 }
 
 h1{
-    font-size: 40px;
-    padding-left: 20px;
+    font-size: 45px;
+    padding-left: 30px;
+    font-family: 'Passion One', sans-serif;
+}
+
+.index h2{
+    font-size: 20px;
+    font-family: 'Passion One', sans-serif;
 }
 
 span{
     font-size: 20px;
-    padding: 20px;
+    padding: 10px;
 }
 
 nav span{
@@ -29,8 +53,8 @@ nav span{
     display: flex;
     justify-content:space-evenly;
     position: absolute;
-    top: 0;
-    right: 30;
+    top: -10px;
+    right: 0px;
     width: 100%;
     padding: 20px;
 }
@@ -64,6 +88,18 @@ nav span{
     top:30px
 
 }
+
+.vid1 iframe, .vid2 iframe{
+    width: 100%;
+    height: 600px;
+}
+
+@media screen and (max-width:768px){
+    .vid1 iframe, .vid2 iframe{
+        height: 300px;
+    }
+}
+
 /* index bg */
 body.index{
     background-image: 
@@ -74,16 +110,11 @@ body.index{
 }
 /* about page */
 body.about{
-    background-image: url('https://i.pinimg.com/564x/f1/4b/0d/f14b0d409857a3cc2460b1cbcf3ed33b.jpg');
+    background-image: url(https://github.com/cyannee/ID_Assg1/blob/main/ID_10259855H_Cyanne_Assg1_website/images/aboutBG.png);
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
 
-}
-
-.content {
-    display: flex;
-    align-items: top;
 }
 
 .content p{
@@ -95,16 +126,18 @@ body.about{
 
 .flex-container{
     display: flex;
-    flex-wrap:wrap;
     justify-content: space-between;
+    align-items: center;
+    max-width: 100%;
+    margin: 0 auto;
     padding-left: 40px;
     padding-right: 40px;
 }
 
 .flex-container img{
-    margin-bottom: 10px;
-    width: calc(33.33%-20px);
-
+    max-width: calc(100%/ 3 - 20px);
+    height: auto;
+    margin: 0 5px;
 }
 
 .albums{
@@ -238,7 +271,7 @@ body.tour{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 20px;
+    padding: 50px;
     padding-left: 50px;
     font-family: 'Passion One', sans-serif;
     position: relative;
@@ -248,6 +281,10 @@ body.tour{
     color: tomato;
 }
  
+.tour-info h3{
+    font-size: 35px;
+}
+
 .tour{
     text-align: left;
     margin: 0;
@@ -259,7 +296,7 @@ body.tour{
 }
 
 .tour-date p{
-    font-size: 30px;
+    font-size: 25px;
     margin: 0;
 }
 
@@ -299,19 +336,26 @@ body.tour{
     font-family: 'Hedvig Letters Serif', serif;
 }
 
+/*contact page*/
+
+.contact{
+    color: tomato;
+}
+
 .contact p{
     font-size: 20px;
     font-family: 'Hedvig Letters Serif', serif;
 }
 
 .contact-info{
-    padding-left: 100px;
+    padding-left: 200px;
 }
 
 .booking-info{
-    padding-left: 100px;
+    padding-left: 200px;
 }
 
 .container-contact a{
-    color: tomato;
+    color: white;
 }
+
