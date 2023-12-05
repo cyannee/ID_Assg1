@@ -31,7 +31,7 @@ header a:hover{
 
 h1{
     font-size: 45px;
-    padding-left: 30px;
+    padding-left: 35px;
     font-family: 'Passion One', sans-serif;
 }
 
@@ -110,7 +110,7 @@ body.index{
 }
 /* about page */
 body.about{
-    background-image: url(https://github.com/cyannee/ID_Assg1/blob/main/ID_10259855H_Cyanne_Assg1_website/images/aboutBG.png);
+    background-image: url(images/aboutBG.png);
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
@@ -160,7 +160,7 @@ body.about{
 
 .album-name p{
     margin: 0;
-    color: black;
+    color: white;
     font-size: 25px;
     font-family: 'Hind', sans-serif;
     padding-bottom: 50px;
@@ -169,7 +169,8 @@ body.about{
 h4{
     font-size: 40px;
     text-align: center;
-    font-family: 'Hind', sans-serif;;
+    font-family: 'Hind', sans-serif;
+    color: white;
 }
 
 /* merch page */
