@@ -5,8 +5,9 @@ purpose: To serve as a comprehensive platform that satisfies both the external u
 
 features: 
 - brand name 
-- contact and social media information
+- contact and social media information - clicking on the social media icons will lead you to their social media profiles
 - about us page
-- tour page
-- merch page
+- tour page - button which allows you to buy tickets
+- merch page - hovering over a product will show a button 'Add to Cart'
+- contact page
 - easy to navigate menu bar
